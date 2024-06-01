@@ -1,3 +1,9 @@
+.sprite {
+	background: url('images/3024068.jpg') no-repeat -808px -496px;
+	width: 192px;
+	height: 192px;
+}
+
 img{
   width: 60%;
   align-self: center;
