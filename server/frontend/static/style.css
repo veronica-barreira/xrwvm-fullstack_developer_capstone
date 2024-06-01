@@ -1,8 +1,32 @@
-.sprite {
-	background: url('images/3024068.jpg') no-repeat -808px -496px;
-	width: 192px;
-	height: 192px;
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background: url('images/3024068.jpg') no-repeat;
+	background-size: 1000px 1000px;
+	width: 96px;
+	height: 96px;
+}
+
+.phone {
+	background-position: -404px -248px;
+}
+
+.address {
+	background-position: -404px -372px;
+}
+
+.email {
+	background-position: -404px -744px;
+}
+
 
 img{
   width: 60%;
