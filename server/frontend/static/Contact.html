@@ -16,13 +16,13 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+                        <a class="nav-link" style="font-size: larger;" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+                        <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+                        <a class="nav-link active" style="font-size: larger;" aria-current="page" href="/contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -32,7 +32,15 @@
     <div>
         <div class="header-banner">
             <!-- image -->
-            <img class="contact-img-top" src="/static/images/car1.jpg" alt="Car image">
+            <img class="contact-img-top" src="/static/images/car2.jpg" alt="Car image">
+            <div class="centered">
+                <h1>CONTACT US</h1>
+                <div style="display:flex">
+                    <a style="color: #FFF;" href="/" >Home</a>
+                    <p style="color: #FFF;">|</p>
+                    <a style="color: #FFF;" href="#getInTouch">Contact us</a>
+                </div>
+            </div>
         </div>
         <div class="contact-container" style="background-color:darkturquoise;">
             <!-- bottom blue part -->
@@ -42,7 +50,7 @@
                     <div class="icon phone"></div>
                     <div class="contact-body">
                         <h3 class="contact-title">Call Us</h3>
-                        <p class="contact-text">478 569 6990</p>
+                        <p class="contact-text" style="margin-bottom:2px;">478 569 6990</p>
                         <p class="contact-text">621 342 7331</p>
                     </div>
                 </div>
@@ -51,7 +59,7 @@
                     <div class="icon email"></div>
                     <div class="contact-body">
                         <h3 class="contact-title">Email</h3>
-                        <p class="contact-text">InfoDealership@topcars.com</p>
+                        <p class="contact-text" style="margin-bottom:2px;">InfoDealership@topcars.com</p>
                         <p class="contact-text">GlobalSales@topcars.com</p>
                     </div>
                 </div>
@@ -60,32 +68,38 @@
                     <div class="icon address"></div>
                     <div class="contact-body">
                         <h3 class="contact-title">Address</h3>
-                        <p class="contact-text">563 Lorem Street</p>
+                        <p class="contact-text" style="margin-bottom:2px;">563 Lorem Street</p>
                         <p class="contact-text">Toronto, Canada</p>
                     </div>
                 </div>
             </div>
-            <div class="contact-form">
-                <!-- Contact Form -->
-                <form action="/handling-contact-form-page" method="post">
-                    <p class="form-title">GET IN TOUCH</p>
-                    <div>
-                        <div>
-                            <label for="name">Name *</label>
-                            <input type="text" id="name" name="user_name" class="input-form" placeholder="Enter your name"/>
-                        </div>
-                        <div>
-                           <label for="email">Email *</label>
-                           <input type="email" id="email" name="user_email" class="input-form" placeholder="Enter your email"/>
-                        </div>
-                        <div>
-                            <label for="msg">Message *</label>
-                            <textarea id="msg" name="user_message" class="msg_area" rows="10" cols="40" placeholder="Enter your message"></textarea>
-                        </div>
-                        <button type="submit" class="contact-button">SUBMIT</button>
-                    </div>
+            <div style="display: flex; align-items:center; justify-content: center;">
+                <div>
+                    <img class="img-contact-form" src="/static/images/contactus.png" alt="Technical Support Customer Service - PNG EGG">
+                </div>
 
-                </form>
+                <div class="contact-form" id="getInTouch">
+                    <!-- Contact Form -->
+                    <form action="/handling-contact-form-page" method="post">
+                        <p class="form-title">GET IN TOUCH</p>
+                        <div>
+                            <div>
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="user_name" class="input-form" placeholder="Enter your name"/>
+                            </div>
+                            <div>
+                               <label for="email">Email *</label>
+                               <input type="email" id="email" name="user_email" class="input-form" placeholder="Enter your email"/>
+                            </div>
+                            <div>
+                                <label for="msg">Message *</label>
+                                <textarea id="msg" name="user_message" class="msg_area" rows="10" cols="40" placeholder="Enter your message"></textarea>
+                            </div>
+                            <button type="submit" class="contact-button">SUBMIT</button>
+                        </div>
+    
+                    </form>
+                </div>
             </div>
         </div>
     </div>

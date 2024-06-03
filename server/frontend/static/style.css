@@ -1,3 +1,17 @@
+.centered {
+    color: #FFF;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -150%);
+}
+
+.img-contact-form {
+    width: 400px;
+    height: 400px;
+    display: flex;
+   
+}
 .contact-form {
     align-items: center;
     justify-content: center;
@@ -13,11 +27,9 @@
 }
 
 button.contact-button {
-    display: inline-block;
-    align-self: center;
     background-color: #FFF;
     border-radius: 5px;
-    margin: 35px 35px;
+    margin: 35px 0px;
     padding: .375rem .75rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-weight: bold;
@@ -55,7 +67,7 @@ button.contact-button {
     color: #FFF;
 }
 
-.contact-text {
+p.contact-text {
     color: #FFF;
 }
 
