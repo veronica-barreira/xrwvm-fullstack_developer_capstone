@@ -1,17 +1,42 @@
-.contact-container {
+.contact-form {
+    align-items: center;
     justify-content: center;
     display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+    margin: 1%;
+    padding: 2%;
+
+}
+
+.contact-container {
+    display: grid;
     margin: 0%;
+}
+
+button.contact-button {
+    display: inline-block;
+    align-self: center;
+    background-color: #FFF;
+    border-radius: 5px;
+    margin: 35px 35px;
+    padding: .375rem .75rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: bold;
+    font-size: 22px;
+    width: 55%;
+    
+       
+}
+
+.contact-button:hover {
+    background-color: rgb(19, 178, 178);
 }
 
 .contact-fluid {
     align-items: center;
-    display: inline-flex;
-    margin: 5%;
-    padding: 5%;
+    justify-content: center;
+    display: flex;
+    margin: 1%;
+    padding: 2%;
 }
 
 .contact-item {
@@ -26,29 +51,50 @@
     width: 250px;
 }
 
-.contact-text{
+.contact-title {
     color: #FFF;
-    
+}
+
+.contact-text {
+    color: #FFF;
+}
+
+.form-title {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+label {
+    color: #FFF;
+    display: block;
+    font-size: 1.2rem;
+    padding: 15px 0px 5px;
+}
+
+.input-form {
+    border-radius: 5px;
+    width: 100%;
+    padding: 6px 15px;
+}
+
+.msg_area {
+    border-radius: 5px;
+    border-color: #999;
+    width: 100%;
+    padding: 6px 15px;
 }
 
 .header-banner {
     width: 100%;
     overflow: hidden;
-    
 }
 
 .header-banner img {
     width: 100%;
     height: auto;
-
 }
 
-
-.contact {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
 
 .icon {
     background: url('images/3024068.png') no-repeat;
