@@ -1,9 +1,43 @@
+footer {
+    background-color: darkturquoise;
+    position: relative; 
+    width: 100%;
+    overflow: hidden;
+    color: #333;
+
+}
+
+.legal-footer {
+    margin: 1.5rem;
+}
+
+.footer-items {
+    display:flex; 
+    align-items: center; 
+    justify-content:center;
+    margin: 1rem;
+
+}
+
+.footer-items span {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.footer-items svg {
+    margin: 0.5rem;
+}
+
+.legal-footer {
+    position: relative; 
+    align-items: center;
+}
 .centered {
     color: #FFF;
     position: absolute; 
     top: 50%; 
     left: 50%; 
-    transform: translate(-50%, -150%);
+    transform: translate(-40%, -30%);
 }
 
 .img-contact-form {
@@ -21,9 +55,12 @@
 
 }
 
-.contact-container {
-    display: grid;
-    margin: 0%;
+ .contact-container {  /* same as header-banner */
+    /* display: grid;
+    margin: 0%; */
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 button.contact-button {
@@ -44,11 +81,13 @@ button.contact-button {
 }
 
 .contact-fluid {
-    align-items: center;
-    justify-content: center;
-    display: flex;
     margin: 1%;
     padding: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .contact-item {
@@ -100,13 +139,12 @@ label {
 .header-banner {
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 .header-banner img {
     width: 100%;
-    height: auto;
 }
-
 
 .icon {
     background: url('images/3024068.png') no-repeat;
