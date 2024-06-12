@@ -28,6 +28,10 @@ footer {
     margin: 0.5rem;
 }
 
+.footer-items a {
+    color: inherit;
+}
+
 .legal-footer {
     position: relative; 
     align-items: center;
